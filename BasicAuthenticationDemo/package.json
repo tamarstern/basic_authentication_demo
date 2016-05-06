@@ -1,0 +1,18 @@
+{
+  "name": "BasicAuthenticationDemo",
+  "version": "0.0.0",
+  "description": "BasicAuthenticationDemo",
+  "main": "server.js",
+  "author": {
+    "name": "stern",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "4.13.4",
+    "mongoose": "4.4.14",
+    "body-parser": "1.15.1",
+    "bcrypt-nodejs": "0.0.3",
+    "passport": "0.3.2",
+    "passport-http" : "0.3.0"
+  }
+}
