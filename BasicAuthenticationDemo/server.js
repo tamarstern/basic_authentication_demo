@@ -38,6 +38,11 @@ router.route('/recipes/:recipe_id')
   .put(authController.isAuthenticated, recipeController.putRecipe)
   .delete(authController.isAuthenticated, recipeController.deleteRecipe);
 
+// Create endpoint handlers for /users
+router.route('/users')
+  .post(userController.postUsers)
+  .get(userController.getUsers);
+
 
 
 // Register all our routes with /api
